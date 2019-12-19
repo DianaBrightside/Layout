@@ -1,0 +1,559 @@
+/* Fonts */
+@font-face {
+	font-family: 'ZapfHumanist601BT-Bold-Italic';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.eot');
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ZapfHumanist601BT-Italic';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ZapfHumanist601BT-Roman';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'ZapfHumanist601BT-Roman-Bold';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Alex-Brush';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Myriad-Pro-Bold';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Myriad-Pro-Light';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Athelas';
+	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.eot');
+	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* CSS reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Wrapper */
+.wrapper{
+	width: 1115px;
+	margin: auto;
+	text-align: center;
+    background-color: #ffffff;
+	font-size: 14px;
+	position: relative;
+}
+/* Higher sale block */
+.sales-block{
+	padding: 15px 0px 15px 0;
+	text-align: center;
+	background-color: #fbfafa;
+	font-family: ZapfHumanist601BT-Roman;
+	letter-spacing: 0.7px;
+}
+.discount{
+	color: #ff0000;
+	font-family: ZapfHumanist601BT-Roman-Bold;
+}
+/* Language and currency selectors */
+.selects{
+	width: 100%;
+	display: block;
+	text-align: right;
+	font-family: ZapfHumanist601BT-Roman;
+}
+select{
+	right: 0;
+	padding: 3px 20px 0 0;
+	color: #7e7e7e;
+	font-size: 12px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+.language:hover{
+	color: #ad896e;
+	text-decoration: underline;
+}
+.currency:hover{
+	color: #ad896e;
+	text-decoration: underline;
+}
+.selector{
+	display: inline-block;
+	padding: 3px 7px;
+	position: relative;
+	
+}
+.selector::after{
+	content: "";
+	position: absolute;
+	margin: 7px 0 0px -18px;
+	border-top: #acacac solid 7px;
+	border-left: transparent solid 4px;
+	border-right: transparent solid 4px;
+	cursor: pointer;
+}
+
+/* Header */
+.shop-logo, .menu, .header-sprites{
+	display: table-cell;
+}
+
+/* logo */
+.logo-link{
+	font-family: Alex-Brush;
+	font-size: 36px;
+	color: black;	
+	text-decoration: none;
+}
+.logo-link:hover{
+	color: #9d744b;
+}
+.shop-logo{
+	padding: 0 130px 0 0;
+}
+
+/* main menu */
+/* .menu{
+	margin: 0 215px 0 0;
+} */
+.main-menu{
+	vertical-align: top;
+	font-family: ZapfHumanist601BT-Roman; 
+	margin: 0px 142px 0 0;
+}
+.main-item{
+	display: inline-block;
+	padding: 0 50px 0 0;
+	color: black;
+}
+.item-link{
+	color: black;
+	text-decoration: none;
+}
+.main-item:last-child{
+	margin: 0 0;
+}
+.main-item:first-child .item-link{
+	color: #ad896e;
+	text-decoration: underline;
+}
+.main-item:nth-child(2)::after{
+		content: "";
+		position: absolute;
+		margin: 4px 0 0px 2px;
+		border-top: #acacac solid 7px;
+		border-left: transparent solid 4px;
+		border-right: transparent solid 4px;
+		cursor: pointer;
+}
+
+.item-link:hover{
+	color: #ad896e;
+	text-decoration: underline;
+}
+
+/* Header Sprites  */
+.header-sprites{
+	vertical-align: middle;
+	right: 0;
+}
+.h-sprites{
+	font-size: 0;
+	padding: 0 5px 0 0;
+}
+.header-sprite{
+	display: inline-block;
+	margin: 0 15px 0 0;
+	font-size: 20px;
+}
+.header-sprite:last-child{
+	margin:  0 0;
+}
+.h-sprite-link{
+	display: block;
+	width: 28px;
+	height: 28px;
+	background: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/images/header_sprites.png');
+}
+.h-sprite-link:hover{
+	border-bottom: 1px solid gray; 
+}
+.search{
+	background-position: -107px -52px;
+}
+.account{
+	background-position: -75px -52px;
+}
+.favorite{
+	background-position: -39px -52px;
+}
+.basket{
+	background-position: -4px -53px;
+}
+
+/* Feed */
+.armchair-with-text{
+	text-align: left;
+}
+.main-img-chair{
+	position: relative;
+}
+.d-c-list{
+	position: absolute;
+	z-index: 10;
+	margin: 101px 0px 0 73px;
+}
+.d-c-text{
+	display: block;
+	font-family: ZapfHumanist601BT-Roman;
+	font-size: 48px;
+	letter-spacing: 2.4px;
+	line-height: 57px;
+	text-transform: uppercase;
+}
+.doris{
+	color: #ad896e;
+	}
+.designer-text{
+	position: absolute;
+	z-index: 10;
+	margin: 247px 0px 0 71px;
+	font-family: ZapfHumanist601BT-Roman;
+	letter-spacing: 1.2px;
+	font-size: 24px;
+}
+.discover-now-text{
+	position: absolute;
+	z-index: 10;
+	margin: 336px 0px 0 75px;
+	font-size: 12px;
+	font-family: ZapfHumanist601BT-Roman;
+	letter-spacing: 1.2px;
+}
+.discover-link{
+	padding: 12px 21px;
+	text-decoration: none;
+	border: 1px solid #9d744b;
+	 color: #9d744b;
+	text-transform: uppercase;
+}
+.discover-link:hover{
+	-webkit-box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
+	-moz-box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
+	box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
+
+}
+/* Second block with sales and new collection */
+.second-block{
+	margin: 38px 0 0 0;
+	display: table-cell;
+}
+.big-sale-orange-sofa{
+	position: relative;
+	text-align: left;
+}
+.orange-sofa-text{
+	position: absolute;
+	z-index: 10;
+	font-family: Athelas;
+	color: #ffffff;
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	top: 76px;
+    left: 51px;
+}
+.big-sale-nearby{
+	position: absolute;
+	font-size: 36px;
+	text-transform: uppercase;
+	letter-spacing: 1.8px;
+	color: #ffffff;
+	padding: 35px 0 0 52px;
+}
+.big{
+	display: table-cell;
+	font-family: Myriad-pro-bold;
+}
+.sale{
+	display: table-cell;
+	padding-left: 10px; 
+	font-family: Myriad-pro-light;
+
+}
+.see-all-button{
+	position: absolute;
+	top: 151px;
+    left: 51px;
+	
+}
+.see-all-link{
+	text-decoration: none;
+	color: white;
+    padding: 10px 29px;
+	border: 1px solid white;
+	font-size: 14px;
+	font-family: Myriad-pro-light;
+	letter-spacing: 0.7px;
+}
+/* Right column in second block */
+.second-block-right-column{
+	margin: 0 0 0 30px;
+	display: table-cell;	
+	vertical-align: top;
+}
+.upperline{
+	position: relative;
+    display: inline-block;
+    width: 255px;
+    /* height: 255px; */
+    margin: 0px 15px;
+}
+.upperline:last-child{
+	margin: 0 0;
+}
+.upperline-image{
+	position: relative;
+	margin: 50px 51px 37px 52px;
+}
+.upperline-image:last-child{
+	margin: 28px 68px 15px 68px;
+}
+
+.add-to-fav-button{
+	position: absolute;
+}
+.left-fav{
+	left: 35px;
+	top: 0;
+}
+.right-fav{
+	left: 35px;
+    top: 22px;
+}
+.right-discount-value{
+	position: absolute;
+	right: 0;
+	top: 0;
+	color: #ff0000;
+	font-size: 14px;
+	font-family: Arial;
+	font-weight: bold;
+}
+.right-pic-discount{
+	right: 7px;
+    top: 17px;
+}
+.product-name{
+	font-size: 14px;
+	letter-spacing: 0.7px;
+	font-family: "ZapfHumanist601BT-Roman";
+}
+
+.product-price{
+	padding: 10px;
+	display: block;
+	font-family: "ZapfHumanist601BT-Roman";
+	letter-spacing: 0.8px;
+	font-size: 16px;
+}
+
+.lowerline{
+	display: inline-block;
+	position: relative;
+}
+.lowerline-image{
+	position: relative;
+}
+.lowerline-text{
+	position: absolute;
+	z-index: 10;
+}
+.lowerline-text:first-child{
+	right: 23px;
+    top: 14px;
+	font-family: Myriad-Pro-Regular;
+	font-size: 36px;
+	letter-spacing: 1.8px;
+}
+.lowerline-text:nth-child(2){
+	font-family: Athelas;
+	letter-spacing: 1.5px;
+	font-size: 30px;
+	top: 57px;
+	right: 23px;
+}
+.shop-now-button{
+	position: absolute;
+	padding: 109px 0 0 417px;
+	z-index: 10;
+	
+}
+.shop-now-link{
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 10px 16px;
+	border: 1px solid rgb(0, 0, 0);
+	font-size: 14px;
+	font-family: Myriad-pro-light;
+	letter-spacing: 0.7px;
+}
+.shop-now-link:hover{
+	border: ridge 2px  rgba(0, 0, 0, 0.356);
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
+	-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
+}
+/* List of top products on the gray background */
+.top-products-block{
+	margin: 90px 0 0 0;
+	text-align: center;
+	background-color: #f9f9f9;
+}
+.top-products-title{
+	position: relative;
+	top: -10px;
+	font-family: "Myriad-Pro-bold";
+	font-size: 24px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+}
+.top-products-title:first-child{
+	color:#9d744b;
+}
+.destination-list>li{
+	margin: 31px 44px 17px 11px;
+	display: inline-block;
+	
+}
+.destination-link{
+	color: black;	
+	font-size: 12px;
+	font-family: ZapfHumanist601BT-Roman;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 0.3px;
+}
+.destination-list>li:first-child a{
+	/* margin: 0px 58px 0 0; */
+	color: #9d744b;
+	text-decoration: underline;
+}
+.destination-list>li:hover a{
+	color: #9d744b;
+	text-decoration: underline;
+}
+.products-pics-list{
+	margin: 0 auto;
+	width: 1115px;
+}
+.products-pics-list>li{
+	position: relative;
+	display: inline-block;
+	width: 255px;
+	height: 255px;
+	background-color: white;
+	margin: 20px 20px 70px 0px;
+	vertical-align: top;
+}
+
+.top-product-image{
+	position: relative;
+	margin: 25px 0 0 0;
+}
+.products-pics-list>li>.left-fav{
+	left: 20px;
+    top: 21px;
+}
+
+.buy-product-button{
+	display: inline-block;
+	position: absolute;
+	margin: 3px 0;
+	vertical-align: 20px;
+}
+.buy-product-button:last-child{
+	bottom: 32px;
+    left: 85px;
+}
+.buy-product-link{
+	color: white;
+	background-color: black;
+	font-family: "ZapfHumanist601BT-Roman";
+	letter-spacing: 0.6px;
+	font-size: 12px;
+	padding: 6px 21px 7px 20px;
+	text-decoration: none;
+}
