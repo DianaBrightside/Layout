@@ -557,3 +557,61 @@ select{
 	padding: 6px 21px 7px 20px;
 	text-decoration: none;
 }
+.beige-armchair-block{
+	display: table-cell;
+}
+.living-room-products{
+	display: table-cell;
+	vertical-align: top;
+	font-family: "ZapfHumanist601BT-Roman";
+	letter-spacing: 0.7px;
+	font-size: 14px;
+}
+.living-room-title{
+	margin: 11px 0px 0 6px;
+}
+.living-room-text{
+	margin: 33px 50px 8px 53px;
+}
+.living-room-title>span{
+	font-size: 30px;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
+.living-room-title>span:first-child{
+text-decoration: underline;
+}
+.all-products-button{
+	margin: 45px 0px 0 5px;
+}
+.all-products-link{
+	padding: 10px 15px;
+	border: 1px solid;
+	text-decoration: none;
+	color: black;
+
+
+}
+.living-room-item{
+	padding: 88px 74px 0 59px;
+	display: table-cell;
+}
+.add-to-cart-button{
+	margin: 25px 0 14px;
+}
+.add-to-cart-link{
+	font-size: 12px;
+	padding: 6px 14px;
+	background: black;
+	color: white;
+	border: 1px solid;
+	text-decoration: none;
+}
+.living-room-name{
+	margin: 0px 5px 9px 0;
+	color: #6c6c6c;
+}
+.living-room-price{
+	font-size: 16px;
+	letter-spacing: 0.8px;
+}
