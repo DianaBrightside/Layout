@@ -604,7 +604,6 @@ text-decoration: underline;
 	padding: 6px 14px;
 	background: black;
 	color: white;
-	border: 1px solid;
 	text-decoration: none;
 }
 .living-room-name{
@@ -614,4 +613,305 @@ text-decoration: underline;
 .living-room-price{
 	font-size: 16px;
 	letter-spacing: 0.8px;
+}
+.deal-of-the-week{
+	margin: 121px 22px 0 0;
+	font-family: "Myriad-Pro-bold";
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.2px;
+}
+.deal-discription{
+	margin: 28px auto 18px;
+	text-transform: none;
+	font-family: "ZapfHumanist601BT-Roman";
+	letter-spacing: 0.8px;
+	font-size: 16px;
+	width: 509px;
+}
+.deal-price{
+	font-family: "ZapfHumanist601BT-bold-italic";
+}
+.big-add-to-cart{
+	margin: 27px 0 57px;
+}
+.big-add-to-cart-link{
+	font-size: 14px;
+	padding: 13px 22px;
+	font-family: "ZapfHumanist601BT-Roman";
+	text-transform: none;
+}
+.countdown{
+	display: inline-block;
+}
+.countdown-list{
+	margin: 0px 14px 21px 0px;
+	padding: 4px 0 10px;
+	width: 65px;
+	text-transform: none;
+	display: inline-block;
+	background: rgb(229, 229,229);
+	font-family: "ZapfHumanist601BT-Roman";
+}
+.countdown-list:last-child{
+	margin: 0 0;
+}
+.countdown-list>span:first-child{
+	padding: 10px 0 0 6px;
+	font-size: 36px;
+	border-bottom: 1px solid #acacac;;
+}
+.countdown-list>span:last-child{
+	padding: 4px 0;
+	font-size: 18px;
+}
+.sofa-characteristics{
+	margin: 0 0 170px;
+	position: relative;
+	font-family: "ZapfHumanist601BT-Roman";
+}
+.sofa-characteristics>p{
+	position: absolute;
+	font-size: 14px;
+	letter-spacing: 1px;
+	text-transform: none;
+}
+.back-width{
+	top: -73px;
+    right: 298px;
+}
+.back-width::after{
+	content: " ";
+	position: absolute;
+	width: 105px;
+	height: 1px;
+    left: -17px;
+	top: 95px;
+	background: black;
+	transform: rotate(90deg);
+	z-index: 10;
+}
+.back-width-cm{
+	top: -53px;
+	right: 303px;
+}
+.back-width-circle:before{
+	content:" ";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #998675;
+	border: 1px black solid;
+	border-radius: 50%;
+	opacity: 0.6;
+    top: 50px;
+    right: 308px;
+}
+.back-width-circle::after{
+	content:" ";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background-color: #603913;
+	border: 1px black solid;
+	border-radius: 50%;
+	top: 74px;
+	right: 331px;
+	z-index: 5;
+}
+.cm{
+	font-family: "Myriad-Pro-bold";
+	letter-spacing: 0.9px;
+}
+.seat-width{
+	top: 216px;
+    right: 33px;
+}
+.seat-width::after{
+	content: " ";
+	position: absolute;
+	width: 261px;
+	height: 1px;
+    left: -271px;
+    top: 15px;
+	background: black;
+	z-index: 10;
+}
+.seat-width-cm{
+	top: 237px;
+    right: 36px;
+}
+.seat-width-circle:before{
+	content:" ";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #998675;
+	border: 1px black solid;
+	border-radius: 50%;
+	opacity: 0.6;
+	top: 200px;
+    right: 347px;
+}
+.seat-width-circle::after{
+	content:" ";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background-color: #603913;
+	border: 1px black solid;
+	border-radius: 50%;
+	top: 225px;
+	right: 369px;
+	z-index: 5;
+}
+.seat-height{
+	top: 434px;
+    right: 615px;
+}
+.seat-height:after{
+	content: " ";
+	position: absolute;
+	width: 157px;
+	height: 1px;
+	left: -42px;
+    top: -87px;
+	background: black;
+	transform: rotate(90deg);
+	z-index: 10;
+}
+.seat-height-cm{
+	top: 455px;
+    right: 621px;
+}
+.seat-height-circle::before{
+	content:" ";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #998675;
+	border: 1px black solid;
+	border-radius: 50%;
+	opacity: 0.6;
+	top: 240px;
+    right: 623px;
+}
+.seat-height-circle::after{
+	content:" ";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background-color: #603913;
+	border: 1px black solid;
+	border-radius: 50%;
+	top: 262px;
+    right: 646px;
+	z-index: 5;
+}
+.legs-distance{
+	top: 553px;
+    right: 496px;
+}
+.legs-distance:before{
+	content: " ";
+	position: absolute;
+	width: 664px;
+	height: 1px;
+	left: -294px;
+    top: -51px;
+	background: black;
+	z-index: 10;
+}
+.legs-distance:after{
+	content: " ";
+	position: absolute;
+	width: 47px;
+	height: 1px;
+	left: 17px;
+    top: -28px;
+	background: black;
+	transform: rotate(90deg);
+	z-index: 10;
+}
+.legs-distance-cm{
+	top: 574px;
+    right: 500px;
+}
+.legs-distance-circle:before{
+	content:" ";
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	background-color: #998675;
+	border: 1px black solid;
+	border-radius: 50%;
+	opacity: 0.6;
+	top: 472px;
+    right: 516px;
+}
+.legs-distance-circle::after{
+	content:" ";
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background-color: #603913;
+	border: 1px black solid;
+	border-radius: 50%;
+	top: 494px;
+    right: 539px;
+	z-index: 5;
+}
+/* dinning room block */
+.dinning-room-left{
+	display: table-cell;
+	width: 540px;
+	font-family: "ZapfHumanist601BT-Roman";
+	font-size: 14px;
+	vertical-align: top;
+}
+.dinning-room-left>span{
+	margin: 0 14px 0 -11px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 30px;
+}
+.dinning-room-left>span:first-child{
+	border-bottom: black 1px solid;
+}
+.dinning-room-left>p{
+	text-transform: none;
+	letter-spacing: 1.1px;
+    width: 466px;
+	margin: 30px auto;
+}
+.all-products-dinning-button{
+	position: relative;
+	top: 12px;
+    left: -14px;
+	display: inline-block;
+	margin: 0 0 130px;
+}
+.dinning-link{
+	text-transform: none;
+	padding: 9px 12px;
+}
+.dinning-room-item{
+	margin: 0px 165px 0 -31px;
+	display: inline-block;
+}
+.dinning-room-item:last-child{
+	margin: 0 0;
+}
+.add-to-cart-button-dinning{
+	margin: 22px 0 15px;
+}
+.add-to-cart-link-dinning{
+text-transform: none;
+}
+.name-dinning-room{
+	text-transform: none;
+	color: #6c6c6c;	
+}
+.dinning-room-right{
+	display: table-cell;
 }
