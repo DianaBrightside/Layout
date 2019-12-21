@@ -915,3 +915,69 @@ text-transform: none;
 .dinning-room-right{
 	display: table-cell;
 }
+/* our clients block */
+.our-clients-block{
+	margin: 86px 0 80px;
+	text-align: center;
+	background-color: #f9f9f9;	
+	padding: 0 0 35px
+}
+.our-clients-title{
+	position: relative;
+	top: -10px;
+	font-family: "Myriad-Pro-bold";
+	font-size: 24px;
+	letter-spacing: 1.2px;
+	text-transform: uppercase;
+}
+.our-clients-title:first-child{
+	color:#9d744b;
+}
+.client-userpic{
+	margin: 10px 20px 23px 0;
+}
+.client-comment{
+	margin: 4px auto;
+	color: #9d9d9d;
+	width: 494px;
+	letter-spacing: 0.7px;
+	line-height: 24px;
+}
+.username{
+	margin: 0 3px;
+}
+.username:last-child{
+	margin: 0 24px 0 7px;
+	color: #9d9d9d;
+}
+.partners-logo{
+	margin: 0 0 103px;
+}
+.partners-logo>ul>li{
+	margin: 0 28px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.partners-logo>ul>li:last-child{
+	margin: 0 0;
+}
+.footer{
+	background: black;
+}
+.footer>ul{
+	display: inline-block;
+	margin: 42px 130px 0;
+}
+.footer>ul>li{
+	line-height: 24px;
+}
+.footer>ul>li>a{
+	font-size: 14px;
+	text-decoration: none;
+	font-family: "ZapfHumanist601BT-Roman";
+	color: white;
+}
+.footer>ul>li:first-child>a{
+	font-size: 16px;
+	font-family: "ZapfHumanist601BT-Roman-bold";
+}
