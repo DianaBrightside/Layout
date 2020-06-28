@@ -1,983 +1,1092 @@
 /* Fonts */
 @font-face {
-	font-family: 'ZapfHumanist601BT-Bold-Italic';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.eot');
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "ZapfHumanist601BT-Bold-Italic";
+  src: url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.eot");
+  src: url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.woff")
+      format("woff"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.ttf")
+      format("truetype"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-BoldItalic.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'ZapfHumanist601BT-Italic';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "ZapfHumanist601BT-Italic";
+  src: url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.woff")
+      format("woff"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.ttf")
+      format("truetype"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Italic.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'ZapfHumanist601BT-Roman';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "ZapfHumanist601BT-Roman";
+  src: url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.woff")
+      format("woff"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.ttf")
+      format("truetype"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/ZapfHumanist601BT-Roman.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'ZapfHumanist601BT-Roman-Bold';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "ZapfHumanist601BT-Roman-Bold";
+  src: url("/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.woff")
+      format("woff"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.ttf")
+      format("truetype"),
+    url("/Layout/fonts/Zapf Humanist 601 BT/Zapf-Humanist-601-Bold-BT.svg")
+      format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'Alex-Brush';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Alex Brush/AlexBrush-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Alex-Brush";
+  src: url("/Layout/fonts/Alex Brush/AlexBrush-Regular.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Alex Brush/AlexBrush-Regular.woff") format("woff"),
+    url("/Layout/fonts/Alex Brush/AlexBrush-Regular.ttf") format("truetype"),
+    url("/Layout/fonts/Alex Brush/AlexBrush-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'Myriad-Pro-Bold';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Bold.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Myriad-Pro-Bold";
+  src: url("/Layout/fonts/Myriad Pro/MyriadPro-Bold.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Myriad Pro/MyriadPro-Bold.woff") format("woff"),
+    url("/Layout/fonts/Myriad Pro/MyriadPro-Bold.ttf") format("truetype"),
+    url("/Layout/fonts/Myriad Pro/MyriadPro-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'Myriad-Pro-Light';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Myriad Pro/MyriadPro-Light.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Myriad-Pro-Light";
+  src: url("/Layout/fonts/Myriad Pro/MyriadPro-Light.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Myriad Pro/MyriadPro-Light.woff") format("woff"),
+    url("/Layout/fonts/Myriad Pro/MyriadPro-Light.ttf") format("truetype"),
+    url("/Layout/fonts/Myriad Pro/MyriadPro-Light.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
 @font-face {
-	font-family: 'Athelas';
-	src: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.eot');
-	src: local('☺'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.woff') format('woff'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.ttf') format('truetype'), url('/Users/dianasimonova/Desktop/HW Lemon/Layout/fonts/Athelas/Athelas-Regular.svg') format('svg');
-	font-weight: normal;
-	font-style: normal;
+  font-family: "Athelas";
+  src: url("/Layout/fonts/Athelas/Athelas-Regular.eot");
+  src: local("☺"),
+    url("/Layout/fonts/Athelas/Athelas-Regular.woff") format("woff"),
+    url("/Layout/fonts/Athelas/Athelas-Regular.ttf") format("truetype"),
+    url("/Layout/fonts/Athelas/Athelas-Regular.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
 }
-
 
 /* CSS reset */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 /* Wrapper */
-.wrapper{
-	width: 1115px;
-	margin: auto;
-	text-align: center;
-    background-color: #ffffff;
-	font-size: 14px;
-	position: relative;
+.wrapper {
+  width: 1115px;
+  margin: auto;
+  text-align: center;
+  background-color: #ffffff;
+  font-size: 14px;
+  position: relative;
 }
 /* Higher sale block */
-.sales-block{
-	padding: 15px 0px 15px 0;
-	text-align: center;
-	background-color: #fbfafa;
-	font-family: ZapfHumanist601BT-Roman;
-	letter-spacing: 0.7px;
+.sales-block {
+  padding: 15px 0px 15px 0;
+  text-align: center;
+  background-color: #fbfafa;
+  font-family: ZapfHumanist601BT-Roman;
+  letter-spacing: 0.7px;
 }
-.discount{
-	color: #ff0000;
-	font-family: ZapfHumanist601BT-Roman-Bold;
+.discount {
+  color: #ff0000;
+  font-family: ZapfHumanist601BT-Roman-Bold;
 }
 /* Language and currency selectors */
-.selects{
-	width: 100%;
-	display: block;
-	text-align: right;
-	font-family: ZapfHumanist601BT-Roman;
+.selects {
+  width: 100%;
+  display: block;
+  text-align: right;
+  font-family: ZapfHumanist601BT-Roman;
 }
-select{
-	right: 0;
-	padding: 3px 20px 0 0;
-	color: #7e7e7e;
-	font-size: 12px;
-	outline: none;
-	border: none;
-	background-color: transparent;
-	-webkit-appearance: none;
-    -moz-appearance: none;
-    -ms-appearance: none;
-	appearance: none;
-	cursor: pointer;
+select {
+  right: 0;
+  padding: 3px 20px 0 0;
+  color: #7e7e7e;
+  font-size: 12px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  cursor: pointer;
 }
-.language:hover{
-	color: #ad896e;
-	text-decoration: underline;
+.language:hover {
+  color: #ad896e;
+  text-decoration: underline;
 }
-.currency:hover{
-	color: #ad896e;
-	text-decoration: underline;
+.currency:hover {
+  color: #ad896e;
+  text-decoration: underline;
 }
-.selector{
-	display: inline-block;
-	padding: 3px 7px;
-	position: relative;
-	
+.selector {
+  display: inline-block;
+  padding: 3px 7px;
+  position: relative;
 }
-.selector::after{
-	content: "";
-	position: absolute;
-	margin: 7px 0 0px -18px;
-	border-top: #acacac solid 7px;
-	border-left: transparent solid 4px;
-	border-right: transparent solid 4px;
-	cursor: pointer;
+.selector::after {
+  content: "";
+  position: absolute;
+  margin: 7px 0 0px -18px;
+  border-top: #acacac solid 7px;
+  border-left: transparent solid 4px;
+  border-right: transparent solid 4px;
+  cursor: pointer;
 }
 
 /* Header */
-.shop-logo, .menu, .header-sprites{
-	display: table-cell;
+.shop-logo,
+.menu,
+.header-sprites {
+  display: table-cell;
 }
 
 /* logo */
-.logo-link{
-	font-family: Alex-Brush;
-	font-size: 36px;
-	color: black;	
-	text-decoration: none;
+.logo-link {
+  font-family: Alex-Brush;
+  font-size: 36px;
+  color: black;
+  text-decoration: none;
 }
-.logo-link:hover{
-	color: #9d744b;
+.logo-link:hover {
+  color: #9d744b;
 }
-.shop-logo{
-	padding: 0 130px 0 0;
+.shop-logo {
+  padding: 0 130px 0 0;
 }
 
 /* main menu */
 /* .menu{
 	margin: 0 215px 0 0;
 } */
-.main-menu{
-	vertical-align: top;
-	font-family: ZapfHumanist601BT-Roman; 
-	margin: 0px 142px 0 0;
+.main-menu {
+  vertical-align: top;
+  font-family: ZapfHumanist601BT-Roman;
+  margin: 0px 142px 0 0;
 }
-.main-item{
-	display: inline-block;
-	padding: 0 50px 0 0;
-	color: black;
+.main-item {
+  display: inline-block;
+  padding: 0 50px 0 0;
+  color: black;
 }
-.item-link{
-	color: black;
-	text-decoration: none;
+.item-link {
+  color: black;
+  text-decoration: none;
 }
-.main-item:last-child{
-	margin: 0 0;
+.main-item:last-child {
+  margin: 0 0;
 }
-.main-item:first-child .item-link{
-	color: #ad896e;
-	text-decoration: underline;
+.main-item:first-child .item-link {
+  color: #ad896e;
+  text-decoration: underline;
 }
-.main-item:nth-child(2)::after{
-		content: "";
-		position: absolute;
-		margin: 4px 0 0px 2px;
-		border-top: #acacac solid 7px;
-		border-left: transparent solid 4px;
-		border-right: transparent solid 4px;
-		cursor: pointer;
+.main-item:nth-child(2)::after {
+  content: "";
+  position: absolute;
+  margin: 4px 0 0px 2px;
+  border-top: #acacac solid 7px;
+  border-left: transparent solid 4px;
+  border-right: transparent solid 4px;
+  cursor: pointer;
 }
 
-.item-link:hover{
-	color: #ad896e;
-	text-decoration: underline;
+.item-link:hover {
+  color: #ad896e;
+  text-decoration: underline;
 }
 
 /* Header Sprites  */
-.header-sprites{
-	vertical-align: middle;
-	right: 0;
+.header-sprites {
+  vertical-align: middle;
+  right: 0;
 }
-.h-sprites{
-	font-size: 0;
-	padding: 0 5px 0 0;
+.h-sprites {
+  font-size: 0;
+  padding: 0 5px 0 0;
 }
-.header-sprite{
-	display: inline-block;
-	margin: 0 15px 0 0;
-	font-size: 20px;
+.header-sprite {
+  display: inline-block;
+  margin: 0 15px 0 0;
+  font-size: 20px;
 }
-.header-sprite:last-child{
-	margin:  0 0;
+.header-sprite:last-child {
+  margin: 0 0;
 }
-.h-sprite-link{
-	display: block;
-	width: 28px;
-	height: 28px;
-	background: url('/Users/dianasimonova/Desktop/HW Lemon/Layout/images/header_sprites.png');
+.h-sprite-link {
+  display: block;
+  width: 28px;
+  height: 28px;
+  background: url("/Layout/images/header_sprites.png");
 }
-.h-sprite-link:hover{
-	border-bottom: 1px solid gray; 
+.h-sprite-link:hover {
+  border-bottom: 1px solid gray;
 }
-.search{
-	background-position: -107px -52px;
+.search {
+  background-position: -107px -52px;
 }
-.account{
-	background-position: -75px -52px;
+.account {
+  background-position: -75px -52px;
 }
-.favorite{
-	background-position: -39px -52px;
+.favorite {
+  background-position: -39px -52px;
 }
-.basket{
-	background-position: -4px -53px;
+.basket {
+  background-position: -4px -53px;
 }
 
 /* Feed */
-.armchair-with-text{
-	text-align: left;
+.armchair-with-text {
+  text-align: left;
 }
-.main-img-chair{
-	position: relative;
+.main-img-chair {
+  position: relative;
 }
-.d-c-list{
-	position: absolute;
-	z-index: 10;
-	margin: 101px 0px 0 73px;
+.d-c-list {
+  position: absolute;
+  z-index: 10;
+  margin: 101px 0px 0 73px;
 }
-.d-c-text{
-	display: block;
-	font-family: ZapfHumanist601BT-Roman;
-	font-size: 48px;
-	letter-spacing: 2.4px;
-	line-height: 57px;
-	text-transform: uppercase;
+.d-c-text {
+  display: block;
+  font-family: ZapfHumanist601BT-Roman;
+  font-size: 48px;
+  letter-spacing: 2.4px;
+  line-height: 57px;
+  text-transform: uppercase;
 }
-.doris{
-	color: #ad896e;
-	}
-.designer-text{
-	position: absolute;
-	z-index: 10;
-	margin: 247px 0px 0 71px;
-	font-family: ZapfHumanist601BT-Roman;
-	letter-spacing: 1.2px;
-	font-size: 24px;
+.doris {
+  color: #ad896e;
 }
-.discover-now-text{
-	position: absolute;
-	z-index: 10;
-	margin: 336px 0px 0 75px;
-	font-size: 12px;
-	font-family: ZapfHumanist601BT-Roman;
-	letter-spacing: 1.2px;
+.designer-text {
+  position: absolute;
+  z-index: 10;
+  margin: 247px 0px 0 71px;
+  font-family: ZapfHumanist601BT-Roman;
+  letter-spacing: 1.2px;
+  font-size: 24px;
 }
-.discover-link{
-	padding: 12px 21px;
-	text-decoration: none;
-	border: 1px solid #9d744b;
-	 color: #9d744b;
-	text-transform: uppercase;
+.discover-now-text {
+  position: absolute;
+  z-index: 10;
+  margin: 336px 0px 0 75px;
+  font-size: 12px;
+  font-family: ZapfHumanist601BT-Roman;
+  letter-spacing: 1.2px;
 }
-.discover-link:hover{
-	-webkit-box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
-	-moz-box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
-	box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
-
+.discover-link {
+  padding: 12px 21px;
+  text-decoration: none;
+  border: 1px solid #9d744b;
+  color: #9d744b;
+  text-transform: uppercase;
+}
+.discover-link:hover {
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
+  -moz-box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
+  box-shadow: 0px 0px 25px 1px rgba(157, 116, 75, 0.5);
 }
 /* Second block with sales and new collection */
-.second-block{
-	margin: 38px 0 0 0;
-	display: table-cell;
+.second-block {
+  margin: 38px 0 0 0;
+  display: table-cell;
 }
-.big-sale-orange-sofa{
-	position: relative;
-	text-align: left;
+.big-sale-orange-sofa {
+  position: relative;
+  text-align: left;
 }
-.orange-sofa-text{
-	position: absolute;
-	z-index: 10;
-	font-family: Athelas;
-	color: #ffffff;
-	font-size: 30px;
-	letter-spacing: 1.5px;
-	top: 76px;
-    left: 51px;
+.orange-sofa-text {
+  position: absolute;
+  z-index: 10;
+  font-family: Athelas;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  top: 76px;
+  left: 51px;
 }
-.big-sale-nearby{
-	position: absolute;
-	font-size: 36px;
-	text-transform: uppercase;
-	letter-spacing: 1.8px;
-	color: #ffffff;
-	padding: 35px 0 0 52px;
+.big-sale-nearby {
+  position: absolute;
+  font-size: 36px;
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: #ffffff;
+  padding: 35px 0 0 52px;
 }
-.big{
-	display: table-cell;
-	font-family: Myriad-pro-bold;
+.big {
+  display: table-cell;
+  font-family: Myriad-pro-bold;
 }
-.sale{
-	display: table-cell;
-	padding-left: 10px; 
-	font-family: Myriad-pro-light;
-
+.sale {
+  display: table-cell;
+  padding-left: 10px;
+  font-family: Myriad-pro-light;
 }
-.see-all-button{
-	position: absolute;
-	top: 151px;
-    left: 51px;
-	
+.see-all-button {
+  position: absolute;
+  top: 151px;
+  left: 51px;
 }
-.see-all-link{
-	text-decoration: none;
-	color: white;
-    padding: 10px 29px;
-	border: 1px solid white;
-	font-size: 14px;
-	font-family: Myriad-pro-light;
-	letter-spacing: 0.7px;
+.see-all-link {
+  text-decoration: none;
+  color: white;
+  padding: 10px 29px;
+  border: 1px solid white;
+  font-size: 14px;
+  font-family: Myriad-pro-light;
+  letter-spacing: 0.7px;
 }
 /* Right column in second block */
-.second-block-right-column{
-	margin: 0 0 0 30px;
-	display: table-cell;	
-	vertical-align: top;
+.second-block-right-column {
+  margin: 0 0 0 30px;
+  display: table-cell;
+  vertical-align: top;
 }
-.upperline{
-	position: relative;
-    display: inline-block;
-    width: 255px;
-    /* height: 255px; */
-    margin: 0px 15px;
+.upperline {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+  /* height: 255px; */
+  margin: 0px 15px;
 }
-.upperline:last-child{
-	margin: 0 0;
+.upperline:last-child {
+  margin: 0 0;
 }
-.upperline-image{
-	position: relative;
-	margin: 50px 51px 37px 52px;
+.upperline-image {
+  position: relative;
+  margin: 50px 51px 37px 52px;
 }
-.upperline-image:last-child{
-	margin: 28px 68px 15px 68px;
-}
-
-.add-to-fav-button{
-	position: absolute;
-}
-.left-fav{
-	left: 35px;
-	top: 0;
-}
-.right-fav{
-	left: 35px;
-    top: 22px;
-}
-.right-discount-value{
-	position: absolute;
-	right: 0;
-	top: 0;
-	color: #ff0000;
-	font-size: 14px;
-	font-family: Arial;
-	font-weight: bold;
-}
-.right-pic-discount{
-	right: 7px;
-    top: 17px;
-}
-.product-name{
-	font-size: 14px;
-	letter-spacing: 0.7px;
-	font-family: "ZapfHumanist601BT-Roman";
+.upperline-image:last-child {
+  margin: 28px 68px 15px 68px;
 }
 
-.product-price{
-	padding: 10px;
-	display: block;
-	font-family: "ZapfHumanist601BT-Roman";
-	letter-spacing: 0.8px;
-	font-size: 16px;
+.add-to-fav-button {
+  position: absolute;
+}
+.left-fav {
+  left: 35px;
+  top: 0;
+}
+.right-fav {
+  left: 35px;
+  top: 22px;
+}
+.right-discount-value {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #ff0000;
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+}
+.right-pic-discount {
+  right: 7px;
+  top: 17px;
+}
+.product-name {
+  font-size: 14px;
+  letter-spacing: 0.7px;
+  font-family: "ZapfHumanist601BT-Roman";
 }
 
-.lowerline{
-	display: inline-block;
-	position: relative;
+.product-price {
+  padding: 10px;
+  display: block;
+  font-family: "ZapfHumanist601BT-Roman";
+  letter-spacing: 0.8px;
+  font-size: 16px;
 }
-.lowerline-image{
-	position: relative;
+
+.lowerline {
+  display: inline-block;
+  position: relative;
 }
-.lowerline-text{
-	position: absolute;
-	z-index: 10;
+.lowerline-image {
+  position: relative;
 }
-.lowerline-text:first-child{
-	right: 23px;
-    top: 14px;
-	font-family: Myriad-Pro-Regular;
-	font-size: 36px;
-	letter-spacing: 1.8px;
+.lowerline-text {
+  position: absolute;
+  z-index: 10;
 }
-.lowerline-text:nth-child(2){
-	font-family: Athelas;
-	letter-spacing: 1.5px;
-	font-size: 30px;
-	top: 57px;
-	right: 23px;
+.lowerline-text:first-child {
+  right: 23px;
+  top: 14px;
+  font-family: Myriad-Pro-Regular;
+  font-size: 36px;
+  letter-spacing: 1.8px;
 }
-.shop-now-button{
-	position: absolute;
-	padding: 109px 0 0 417px;
-	z-index: 10;
-	
+.lowerline-text:nth-child(2) {
+  font-family: Athelas;
+  letter-spacing: 1.5px;
+  font-size: 30px;
+  top: 57px;
+  right: 23px;
 }
-.shop-now-link{
-	text-decoration: none;
-	color: rgb(0, 0, 0);
-	padding: 10px 16px;
-	border: 1px solid rgb(0, 0, 0);
-	font-size: 14px;
-	font-family: Myriad-pro-light;
-	letter-spacing: 0.7px;
+.shop-now-button {
+  position: absolute;
+  padding: 109px 0 0 417px;
+  z-index: 10;
 }
-.shop-now-link:hover{
-	border: ridge 2px  rgba(0, 0, 0, 0.356);
-	-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
-	-moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
-	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
+.shop-now-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 16px;
+  border: 1px solid rgb(0, 0, 0);
+  font-size: 14px;
+  font-family: Myriad-pro-light;
+  letter-spacing: 0.7px;
+}
+.shop-now-link:hover {
+  border: ridge 2px rgba(0, 0, 0, 0.356);
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
+  -moz-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
+  box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.356);
 }
 /* List of top products on the gray background */
-.top-products-block{
-	margin: 90px 0 0 0;
-	text-align: center;
-	background-color: #f9f9f9;
+.top-products-block {
+  margin: 90px 0 0 0;
+  text-align: center;
+  background-color: #f9f9f9;
 }
-.top-products-title{
-	position: relative;
-	top: -10px;
-	font-family: "Myriad-Pro-bold";
-	font-size: 24px;
-	letter-spacing: 1.2px;
-	text-transform: uppercase;
+.top-products-title {
+  position: relative;
+  top: -10px;
+  font-family: "Myriad-Pro-bold";
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
-.top-products-title:first-child{
-	color:#9d744b;
+.top-products-title:first-child {
+  color: #9d744b;
 }
-.destination-list>li{
-	margin: 31px 44px 17px 11px;
-	display: inline-block;
-	
+.destination-list > li {
+  margin: 31px 44px 17px 11px;
+  display: inline-block;
 }
-.destination-link{
-	color: black;	
-	font-size: 12px;
-	font-family: ZapfHumanist601BT-Roman;
-	text-transform: uppercase;
-	text-decoration: none;
-	letter-spacing: 0.3px;
+.destination-link {
+  color: black;
+  font-size: 12px;
+  font-family: ZapfHumanist601BT-Roman;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.3px;
 }
-.destination-list>li:first-child a{
-	/* margin: 0px 58px 0 0; */
-	color: #9d744b;
-	text-decoration: underline;
+.destination-list > li:first-child a {
+  /* margin: 0px 58px 0 0; */
+  color: #9d744b;
+  text-decoration: underline;
 }
-.destination-list>li:hover a{
-	color: #9d744b;
-	text-decoration: underline;
+.destination-list > li:hover a {
+  color: #9d744b;
+  text-decoration: underline;
 }
-.products-pics-list{
-	margin: 0 auto;
-	width: 1115px;
+.products-pics-list {
+  margin: 0 auto;
+  width: 1115px;
 }
-.products-pics-list>li{
-	position: relative;
-	display: inline-block;
-	width: 255px;
-	height: 255px;
-	background-color: white;
-	margin: 20px 20px 70px 0px;
-	vertical-align: top;
-}
-
-.top-product-image{
-	position: relative;
-	margin: 25px 0 0 0;
-}
-.products-pics-list>li>.left-fav{
-	left: 20px;
-    top: 21px;
+.products-pics-list > li {
+  position: relative;
+  display: inline-block;
+  width: 255px;
+  height: 255px;
+  background-color: white;
+  margin: 20px 20px 70px 0px;
+  vertical-align: top;
 }
 
-.buy-product-button{
-	display: inline-block;
-	position: absolute;
-	margin: 3px 0;
-	vertical-align: 20px;
+.top-product-image {
+  position: relative;
+  margin: 25px 0 0 0;
 }
-.buy-product-button:last-child{
-	bottom: 32px;
-    left: 85px;
+.products-pics-list > li > .left-fav {
+  left: 20px;
+  top: 21px;
 }
-.buy-product-link{
-	color: white;
-	background-color: black;
-	font-family: "ZapfHumanist601BT-Roman";
-	letter-spacing: 0.6px;
-	font-size: 12px;
-	padding: 6px 21px 7px 20px;
-	text-decoration: none;
-}
-.beige-armchair-block{
-	display: table-cell;
-}
-.living-room-products{
-	display: table-cell;
-	vertical-align: top;
-	font-family: "ZapfHumanist601BT-Roman";
-	letter-spacing: 0.7px;
-	font-size: 14px;
-}
-.living-room-title{
-	margin: 11px 0px 0 6px;
-}
-.living-room-text{
-	margin: 33px 50px 8px 53px;
-}
-.living-room-title>span{
-	font-size: 30px;
-	letter-spacing: 1.5px;
-	text-transform: uppercase;
-}
-.living-room-title>span:first-child{
-text-decoration: underline;
-}
-.all-products-button{
-	margin: 45px 0px 0 5px;
-}
-.all-products-link{
-	padding: 10px 15px;
-	border: 1px solid;
-	text-decoration: none;
-	color: black;
 
-
+.buy-product-button {
+  display: inline-block;
+  position: absolute;
+  margin: 3px 0;
+  vertical-align: 20px;
 }
-.living-room-item{
-	padding: 88px 74px 0 59px;
-	display: table-cell;
+.buy-product-button:last-child {
+  bottom: 32px;
+  left: 85px;
 }
-.add-to-cart-button{
-	margin: 25px 0 14px;
+.buy-product-link {
+  color: white;
+  background-color: black;
+  font-family: "ZapfHumanist601BT-Roman";
+  letter-spacing: 0.6px;
+  font-size: 12px;
+  padding: 6px 21px 7px 20px;
+  text-decoration: none;
 }
-.add-to-cart-link{
-	font-size: 12px;
-	padding: 6px 14px;
-	background: black;
-	color: white;
-	text-decoration: none;
+.beige-armchair-block {
+  display: table-cell;
 }
-.living-room-name{
-	margin: 0px 5px 9px 0;
-	color: #6c6c6c;
+.living-room-products {
+  display: table-cell;
+  vertical-align: top;
+  font-family: "ZapfHumanist601BT-Roman";
+  letter-spacing: 0.7px;
+  font-size: 14px;
 }
-.living-room-price{
-	font-size: 16px;
-	letter-spacing: 0.8px;
+.living-room-title {
+  margin: 11px 0px 0 6px;
 }
-.deal-of-the-week{
-	margin: 121px 22px 0 0;
-	font-family: "Myriad-Pro-bold";
-	font-size: 24px;
-	text-transform: uppercase;
-	letter-spacing: 1.2px;
+.living-room-text {
+  margin: 33px 50px 8px 53px;
 }
-.deal-discription{
-	margin: 28px auto 18px;
-	text-transform: none;
-	font-family: "ZapfHumanist601BT-Roman";
-	letter-spacing: 0.8px;
-	font-size: 16px;
-	width: 509px;
+.living-room-title > span {
+  font-size: 30px;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
-.deal-price{
-	font-family: "ZapfHumanist601BT-bold-italic";
+.living-room-title > span:first-child {
+  text-decoration: underline;
 }
-.big-add-to-cart{
-	margin: 27px 0 57px;
+.all-products-button {
+  margin: 45px 0px 0 5px;
 }
-.big-add-to-cart-link{
-	font-size: 14px;
-	padding: 13px 22px;
-	font-family: "ZapfHumanist601BT-Roman";
-	text-transform: none;
+.all-products-link {
+  padding: 10px 15px;
+  border: 1px solid;
+  text-decoration: none;
+  color: black;
 }
-.countdown{
-	display: inline-block;
+.living-room-item {
+  padding: 88px 74px 0 59px;
+  display: table-cell;
 }
-.countdown-list{
-	margin: 0px 14px 21px 0px;
-	padding: 4px 0 10px;
-	width: 65px;
-	text-transform: none;
-	display: inline-block;
-	background: rgb(229, 229,229);
-	font-family: "ZapfHumanist601BT-Roman";
+.add-to-cart-button {
+  margin: 25px 0 14px;
 }
-.countdown-list:last-child{
-	margin: 0 0;
+.add-to-cart-link {
+  font-size: 12px;
+  padding: 6px 14px;
+  background: black;
+  color: white;
+  text-decoration: none;
 }
-.countdown-list>span:first-child{
-	padding: 10px 0 0 6px;
-	font-size: 36px;
-	border-bottom: 1px solid #acacac;;
+.living-room-name {
+  margin: 0px 5px 9px 0;
+  color: #6c6c6c;
 }
-.countdown-list>span:last-child{
-	padding: 4px 0;
-	font-size: 18px;
+.living-room-price {
+  font-size: 16px;
+  letter-spacing: 0.8px;
 }
-.sofa-characteristics{
-	margin: 0 0 170px;
-	position: relative;
-	font-family: "ZapfHumanist601BT-Roman";
+.deal-of-the-week {
+  margin: 121px 22px 0 0;
+  font-family: "Myriad-Pro-bold";
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
 }
-.sofa-characteristics>p{
-	position: absolute;
-	font-size: 14px;
-	letter-spacing: 1px;
-	text-transform: none;
+.deal-discription {
+  margin: 28px auto 18px;
+  text-transform: none;
+  font-family: "ZapfHumanist601BT-Roman";
+  letter-spacing: 0.8px;
+  font-size: 16px;
+  width: 509px;
 }
-.back-width{
-	top: -73px;
-    right: 298px;
+.deal-price {
+  font-family: "ZapfHumanist601BT-bold-italic";
 }
-.back-width::after{
-	content: " ";
-	position: absolute;
-	width: 105px;
-	height: 1px;
-    left: -17px;
-	top: 95px;
-	background: black;
-	transform: rotate(90deg);
-	z-index: 10;
+.big-add-to-cart {
+  margin: 27px 0 57px;
 }
-.back-width-cm{
-	top: -53px;
-	right: 303px;
+.big-add-to-cart-link {
+  font-size: 14px;
+  padding: 13px 22px;
+  font-family: "ZapfHumanist601BT-Roman";
+  text-transform: none;
 }
-.back-width-circle:before{
-	content:" ";
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	background-color: #998675;
-	border: 1px black solid;
-	border-radius: 50%;
-	opacity: 0.6;
-    top: 50px;
-    right: 308px;
+.countdown {
+  display: inline-block;
 }
-.back-width-circle::after{
-	content:" ";
-	position: absolute;
-	width: 14px;
-	height: 14px;
-	background-color: #603913;
-	border: 1px black solid;
-	border-radius: 50%;
-	top: 74px;
-	right: 331px;
-	z-index: 5;
+.countdown-list {
+  margin: 0px 14px 21px 0px;
+  padding: 4px 0 10px;
+  width: 65px;
+  text-transform: none;
+  display: inline-block;
+  background: rgb(229, 229, 229);
+  font-family: "ZapfHumanist601BT-Roman";
 }
-.cm{
-	font-family: "Myriad-Pro-bold";
-	letter-spacing: 0.9px;
+.countdown-list:last-child {
+  margin: 0 0;
 }
-.seat-width{
-	top: 216px;
-    right: 33px;
+.countdown-list > span:first-child {
+  padding: 10px 0 0 6px;
+  font-size: 36px;
+  border-bottom: 1px solid #acacac;
 }
-.seat-width::after{
-	content: " ";
-	position: absolute;
-	width: 261px;
-	height: 1px;
-    left: -271px;
-    top: 15px;
-	background: black;
-	z-index: 10;
+.countdown-list > span:last-child {
+  padding: 4px 0;
+  font-size: 18px;
 }
-.seat-width-cm{
-	top: 237px;
-    right: 36px;
+.sofa-characteristics {
+  margin: 0 0 170px;
+  position: relative;
+  font-family: "ZapfHumanist601BT-Roman";
 }
-.seat-width-circle:before{
-	content:" ";
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	background-color: #998675;
-	border: 1px black solid;
-	border-radius: 50%;
-	opacity: 0.6;
-	top: 200px;
-    right: 347px;
+.sofa-characteristics > p {
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-transform: none;
 }
-.seat-width-circle::after{
-	content:" ";
-	position: absolute;
-	width: 14px;
-	height: 14px;
-	background-color: #603913;
-	border: 1px black solid;
-	border-radius: 50%;
-	top: 225px;
-	right: 369px;
-	z-index: 5;
+.back-width {
+  top: -73px;
+  right: 298px;
 }
-.seat-height{
-	top: 434px;
-    right: 615px;
+.back-width::after {
+  content: " ";
+  position: absolute;
+  width: 105px;
+  height: 1px;
+  left: -17px;
+  top: 95px;
+  background: black;
+  transform: rotate(90deg);
+  z-index: 10;
 }
-.seat-height:after{
-	content: " ";
-	position: absolute;
-	width: 157px;
-	height: 1px;
-	left: -42px;
-    top: -87px;
-	background: black;
-	transform: rotate(90deg);
-	z-index: 10;
+.back-width-cm {
+  top: -53px;
+  right: 303px;
 }
-.seat-height-cm{
-	top: 455px;
-    right: 621px;
+.back-width-circle:before {
+  content: " ";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #998675;
+  border: 1px black solid;
+  border-radius: 50%;
+  opacity: 0.6;
+  top: 50px;
+  right: 308px;
 }
-.seat-height-circle::before{
-	content:" ";
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	background-color: #998675;
-	border: 1px black solid;
-	border-radius: 50%;
-	opacity: 0.6;
-	top: 240px;
-    right: 623px;
+.back-width-circle::after {
+  content: " ";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #603913;
+  border: 1px black solid;
+  border-radius: 50%;
+  top: 74px;
+  right: 331px;
+  z-index: 5;
 }
-.seat-height-circle::after{
-	content:" ";
-	position: absolute;
-	width: 14px;
-	height: 14px;
-	background-color: #603913;
-	border: 1px black solid;
-	border-radius: 50%;
-	top: 262px;
-    right: 646px;
-	z-index: 5;
+.cm {
+  font-family: "Myriad-Pro-bold";
+  letter-spacing: 0.9px;
 }
-.legs-distance{
-	top: 553px;
-    right: 496px;
+.seat-width {
+  top: 216px;
+  right: 33px;
 }
-.legs-distance:before{
-	content: " ";
-	position: absolute;
-	width: 664px;
-	height: 1px;
-	left: -294px;
-    top: -51px;
-	background: black;
-	z-index: 10;
+.seat-width::after {
+  content: " ";
+  position: absolute;
+  width: 261px;
+  height: 1px;
+  left: -271px;
+  top: 15px;
+  background: black;
+  z-index: 10;
 }
-.legs-distance:after{
-	content: " ";
-	position: absolute;
-	width: 47px;
-	height: 1px;
-	left: 17px;
-    top: -28px;
-	background: black;
-	transform: rotate(90deg);
-	z-index: 10;
+.seat-width-cm {
+  top: 237px;
+  right: 36px;
 }
-.legs-distance-cm{
-	top: 574px;
-    right: 500px;
+.seat-width-circle:before {
+  content: " ";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #998675;
+  border: 1px black solid;
+  border-radius: 50%;
+  opacity: 0.6;
+  top: 200px;
+  right: 347px;
 }
-.legs-distance-circle:before{
-	content:" ";
-	position: absolute;
-	width: 60px;
-	height: 60px;
-	background-color: #998675;
-	border: 1px black solid;
-	border-radius: 50%;
-	opacity: 0.6;
-	top: 472px;
-    right: 516px;
+.seat-width-circle::after {
+  content: " ";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #603913;
+  border: 1px black solid;
+  border-radius: 50%;
+  top: 225px;
+  right: 369px;
+  z-index: 5;
 }
-.legs-distance-circle::after{
-	content:" ";
-	position: absolute;
-	width: 14px;
-	height: 14px;
-	background-color: #603913;
-	border: 1px black solid;
-	border-radius: 50%;
-	top: 494px;
-    right: 539px;
-	z-index: 5;
+.seat-height {
+  top: 434px;
+  right: 615px;
+}
+.seat-height:after {
+  content: " ";
+  position: absolute;
+  width: 157px;
+  height: 1px;
+  left: -42px;
+  top: -87px;
+  background: black;
+  transform: rotate(90deg);
+  z-index: 10;
+}
+.seat-height-cm {
+  top: 455px;
+  right: 621px;
+}
+.seat-height-circle::before {
+  content: " ";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #998675;
+  border: 1px black solid;
+  border-radius: 50%;
+  opacity: 0.6;
+  top: 240px;
+  right: 623px;
+}
+.seat-height-circle::after {
+  content: " ";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #603913;
+  border: 1px black solid;
+  border-radius: 50%;
+  top: 262px;
+  right: 646px;
+  z-index: 5;
+}
+.legs-distance {
+  top: 553px;
+  right: 496px;
+}
+.legs-distance:before {
+  content: " ";
+  position: absolute;
+  width: 664px;
+  height: 1px;
+  left: -294px;
+  top: -51px;
+  background: black;
+  z-index: 10;
+}
+.legs-distance:after {
+  content: " ";
+  position: absolute;
+  width: 47px;
+  height: 1px;
+  left: 17px;
+  top: -28px;
+  background: black;
+  transform: rotate(90deg);
+  z-index: 10;
+}
+.legs-distance-cm {
+  top: 574px;
+  right: 500px;
+}
+.legs-distance-circle:before {
+  content: " ";
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background-color: #998675;
+  border: 1px black solid;
+  border-radius: 50%;
+  opacity: 0.6;
+  top: 472px;
+  right: 516px;
+}
+.legs-distance-circle::after {
+  content: " ";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  background-color: #603913;
+  border: 1px black solid;
+  border-radius: 50%;
+  top: 494px;
+  right: 539px;
+  z-index: 5;
 }
 /* dinning room block */
-.dinning-room-left{
-	display: table-cell;
-	width: 540px;
-	font-family: "ZapfHumanist601BT-Roman";
-	font-size: 14px;
-	vertical-align: top;
+.dinning-room-left {
+  display: table-cell;
+  width: 540px;
+  font-family: "ZapfHumanist601BT-Roman";
+  font-size: 14px;
+  vertical-align: top;
 }
-.dinning-room-left>span{
-	margin: 0 14px 0 -11px;
-	text-transform: uppercase;
-	letter-spacing: 1.5px;
-	font-size: 30px;
+.dinning-room-left > span {
+  margin: 0 14px 0 -11px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 30px;
 }
-.dinning-room-left>span:first-child{
-	border-bottom: black 1px solid;
+.dinning-room-left > span:first-child {
+  border-bottom: black 1px solid;
 }
-.dinning-room-left>p{
-	text-transform: none;
-	letter-spacing: 1.1px;
-    width: 466px;
-	margin: 30px auto;
+.dinning-room-left > p {
+  text-transform: none;
+  letter-spacing: 1.1px;
+  width: 466px;
+  margin: 30px auto;
 }
-.all-products-dinning-button{
-	position: relative;
-	top: 12px;
-    left: -14px;
-	display: inline-block;
-	margin: 0 0 130px;
+.all-products-dinning-button {
+  position: relative;
+  top: 12px;
+  left: -14px;
+  display: inline-block;
+  margin: 0 0 130px;
 }
-.dinning-link{
-	text-transform: none;
-	padding: 9px 12px;
+.dinning-link {
+  text-transform: none;
+  padding: 9px 12px;
 }
-.dinning-room-item{
-	margin: 0px 165px 0 -31px;
-	display: inline-block;
+.dinning-room-item {
+  margin: 0px 165px 0 -31px;
+  display: inline-block;
 }
-.dinning-room-item:last-child{
-	margin: 0 0;
+.dinning-room-item:last-child {
+  margin: 0 0;
 }
-.add-to-cart-button-dinning{
-	margin: 22px 0 15px;
+.add-to-cart-button-dinning {
+  margin: 22px 0 15px;
 }
-.add-to-cart-link-dinning{
-text-transform: none;
+.add-to-cart-link-dinning {
+  text-transform: none;
 }
-.name-dinning-room{
-	text-transform: none;
-	color: #6c6c6c;	
+.name-dinning-room {
+  text-transform: none;
+  color: #6c6c6c;
 }
-.dinning-room-right{
-	display: table-cell;
+.dinning-room-right {
+  display: table-cell;
 }
 /* our clients block */
-.our-clients-block{
-	margin: 86px 0 80px;
-	text-align: center;
-	background-color: #f9f9f9;	
-	padding: 0 0 35px
+.our-clients-block {
+  margin: 86px 0 80px;
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 0 0 35px;
 }
-.our-clients-title{
-	position: relative;
-	top: -10px;
-	font-family: "Myriad-Pro-bold";
-	font-size: 24px;
-	letter-spacing: 1.2px;
-	text-transform: uppercase;
+.our-clients-title {
+  position: relative;
+  top: -10px;
+  font-family: "Myriad-Pro-bold";
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
 }
-.our-clients-title:first-child{
-	color:#9d744b;
+.our-clients-title:first-child {
+  color: #9d744b;
 }
-.client-userpic{
-	margin: 10px 20px 23px 0;
+.client-userpic {
+  margin: 10px 20px 23px 0;
 }
-.client-comment{
-	margin: 4px auto;
-	color: #9d9d9d;
-	width: 494px;
-	letter-spacing: 0.7px;
-	line-height: 24px;
+.client-comment {
+  margin: 4px auto;
+  color: #9d9d9d;
+  width: 494px;
+  letter-spacing: 0.7px;
+  line-height: 24px;
 }
-.username{
-	margin: 0 3px;
+.username {
+  margin: 0 3px;
 }
-.username:last-child{
-	margin: 0 24px 0 7px;
-	color: #9d9d9d;
+.username:last-child {
+  margin: 0 24px 0 7px;
+  color: #9d9d9d;
 }
-.partners-logo{
-	margin: 0 0 103px;
+.partners-logo {
+  margin: 0 0 103px;
 }
-.partners-logo>ul>li{
-	margin: 0 28px;
-	display: inline-block;
-	vertical-align: middle;
+.partners-logo > ul > li {
+  margin: 0 28px;
+  display: inline-block;
+  vertical-align: middle;
 }
-.partners-logo>ul>li:last-child{
-	margin: 0 0;
+.partners-logo > ul > li:last-child {
+  margin: 0 0;
 }
-.footer{
-	background: black;
+.footer {
+  background: black;
 }
-.footer>ul{
-	display: inline-block;
-	margin: 42px 130px 0;
+.footer > ul {
+  display: inline-block;
+  margin: 42px 130px 0;
 }
-.footer>ul>li{
-	line-height: 24px;
+.footer > ul > li {
+  line-height: 24px;
 }
-.footer>ul>li>a{
-	font-size: 14px;
-	text-decoration: none;
-	font-family: "ZapfHumanist601BT-Roman";
-	color: white;
+.footer > ul > li > a {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "ZapfHumanist601BT-Roman";
+  color: white;
 }
-.footer>ul>li:first-child>a{
-	font-size: 16px;
-	font-family: "ZapfHumanist601BT-Roman-bold";
+.footer > ul > li:first-child > a {
+  font-size: 16px;
+  font-family: "ZapfHumanist601BT-Roman-bold";
 }
